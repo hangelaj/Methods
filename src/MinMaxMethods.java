@@ -28,13 +28,13 @@ public class MinMaxMethods {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter num1: ");
+        System.out.print("Enter your first number: ");
         int num1 = scanner.nextInt();
 
-        System.out.print("Enter num2: ");
+        System.out.print("Enter your second number: ");
         int num2 = scanner.nextInt();
 
-        System.out.print("Enter num3: ");
+        System.out.print("Enter your third number: ");
         int num3 = scanner.nextInt();
 
         // Call the two methods and print the results

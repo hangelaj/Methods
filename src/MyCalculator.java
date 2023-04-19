@@ -29,18 +29,21 @@ public class MyCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter num1: ");
+        System.out.print("Please enter a large number to use: ");
         double num1 = scanner.nextDouble();
 
-        System.out.print("Enter num2: ");
+        System.out.print("Please enter a small number to use: ");
         double num2 = scanner.nextDouble();
+        double a = add(num1, num2 );
+        double b = subtract(num1, num2 );
+        double c = multiply(num1, num2 ) ;
+        double d = divide(num1, num2 ) ;
 
         // Call the four methods and print the results
-        System.out.println("Sum: " + add(num1, num2));
-        System.out.println("Difference: " + subtract(num1, num2));
-        System.out.println("Product: " + multiply(num1, num2));
-        System.out.println("Quotient: " + divide(num1, num2));
-
+        System.out.println("The addition of your number is: " + a);
+        System.out.println("The subtraction of your number is: " + b);
+        System.out.println("The multiplication of your number is: " + c);
+        System.out.println("The division of your number is: " + d);
 
     }
 }
